@@ -1,5 +1,13 @@
+// core
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+
+// router
+
+import { RouterModule, Routes } from '@angular/router';
+
+// components
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
