@@ -7,6 +7,7 @@ import { ShopComponent } from './shop/shop.component';
 import { ProductComponent } from './product/product.component';
 import { ProductsComponent } from './products/products.component';
 import { HeadComponent } from './head/head.component';
+import { FootComponent } from './foot/foot.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HeadComponent } from './head/head.component';
     ShopComponent,
     ProductComponent,
     ProductsComponent,
-    HeadComponent
+    HeadComponent,
+    FootComponent
   ],
   imports: [
     BrowserModule
