@@ -20,11 +20,11 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
 import { LoginComponent } from './pages/login/login.component';
 import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
 import { ShoppingCartService } from './services/shopping-cart.service';
+import { CheckoutComponent } from './pages/checkout/checkout.component';
 
 // router
 
 import { RouterModule, Routes } from '@angular/router';
-import { CheckoutComponent } from './pages/checkout/checkout.component';
 
 const appRoutes: Routes = [
   {
@@ -46,6 +46,10 @@ const appRoutes: Routes = [
   {
     path: 'forgot',
     component: ForgotPasswordComponent
+  },
+  {
+    path: 'checkout',
+    component: CheckoutComponent
   },
   {
     path: '',
