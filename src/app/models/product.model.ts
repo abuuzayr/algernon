@@ -13,6 +13,7 @@ export class Product {
     featured: boolean,
     description: string,
     brand: string,
-    categoryRef: string
+    categoryRef: string,
+    summary: string,
   }>;
 }
