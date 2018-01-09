@@ -19,8 +19,13 @@ import { FilterActiveComponent } from './components/filter-active/filter-active.
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
-import { ShoppingCartService } from './services/shopping-cart.service';
 import { CheckoutComponent } from './pages/checkout/checkout.component';
+
+// services
+
+import { ShoppingCartService } from './services/shopping-cart.service';
+import { ProductsService } from './services/products.service';
+import { CategoriesService } from './services/categories.service';
 
 // router
 
@@ -87,7 +92,9 @@ const appRoutes: Routes = [
     )
   ],
   providers: [
-    ShoppingCartService
+    ShoppingCartService,
+    CategoriesService,
+    ProductsService
   ],
   bootstrap: [AppComponent]
 })
