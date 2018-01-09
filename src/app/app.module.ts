@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from '../app/modules/material/material.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 // components
 
@@ -91,6 +92,7 @@ const appRoutes: Routes = [
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModule,
+    FlexLayoutModule,
     RouterModule.forRoot(
       appRoutes
     )
