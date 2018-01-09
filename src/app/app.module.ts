@@ -11,6 +11,7 @@ import { FootComponent } from './foot/foot.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { CategoryComponent } from './category/category.component';
 import { FilterByComponent } from './filter-by/filter-by.component';
+import { FilterActiveComponent } from './filter-active/filter-active.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FilterByComponent } from './filter-by/filter-by.component';
     FootComponent,
     CategoriesComponent,
     CategoryComponent,
-    FilterByComponent
+    FilterByComponent,
+    FilterActiveComponent
   ],
   imports: [
     BrowserModule
