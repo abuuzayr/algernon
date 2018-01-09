@@ -17,6 +17,7 @@ import { CategoryComponent } from './components/category/category.component';
 import { FilterByComponent } from './components/filter-by/filter-by.component';
 import { FilterActiveComponent } from './components/filter-active/filter-active.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { LoginComponent } from './login/login.component';
 
 // router
 
@@ -59,7 +60,8 @@ const appRoutes: Routes = [
     CategoryComponent,
     FilterByComponent,
     FilterActiveComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
