@@ -10,6 +10,7 @@ import { HeadComponent } from './head/head.component';
 import { FootComponent } from './foot/foot.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { CategoryComponent } from './category/category.component';
+import { FilterByComponent } from './filter-by/filter-by.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CategoryComponent } from './category/category.component';
     HeadComponent,
     FootComponent,
     CategoriesComponent,
-    CategoryComponent
+    CategoryComponent,
+    FilterByComponent
   ],
   imports: [
     BrowserModule
