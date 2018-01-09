@@ -23,6 +23,7 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
 import { LoginComponent } from './pages/login/login.component';
 import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
 import { CheckoutComponent } from './pages/checkout/checkout.component';
+import { ShoppingCartItemComponent } from './components/shopping-cart-item/shopping-cart-item.component';
 
 // services
 
@@ -86,7 +87,8 @@ const appRoutes: Routes = [
     PageNotFoundComponent,
     LoginComponent,
     ForgotPasswordComponent,
-    CheckoutComponent
+    CheckoutComponent,
+    ShoppingCartItemComponent
   ],
   imports: [
     BrowserModule,
