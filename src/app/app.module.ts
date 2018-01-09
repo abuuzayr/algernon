@@ -24,6 +24,7 @@ import { ShoppingCartService } from './services/shopping-cart.service';
 // router
 
 import { RouterModule, Routes } from '@angular/router';
+import { CheckoutComponent } from './pages/checkout/checkout.component';
 
 const appRoutes: Routes = [
   {
@@ -72,7 +73,8 @@ const appRoutes: Routes = [
     FilterActiveComponent,
     PageNotFoundComponent,
     LoginComponent,
-    ForgotPasswordComponent
+    ForgotPasswordComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
