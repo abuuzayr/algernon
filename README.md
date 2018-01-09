@@ -1,6 +1,8 @@
 # Algernon
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)][badge-url]
+[![build](https://img.shields.io/badge/build-passing-brightgreen.svg)][badge-url]
+
 
 **Algernon** is a front-end e-commerce boilerplate based on Angular, Angular CLI, Angular Router, Angular Material, rxjs, Angular Flex-Layout, and others. Designed to connect to HTTP API endpoints that serve responses in JSON. Mock API reponses are included in this repo which are easily removable and replaced with actual responses. 
 
@@ -42,12 +44,12 @@ Documentation
 
 Depending on the component you are working on you should have the following links handy.
 
-- Angular - [online documentation](https://angular.io/docs)
-- Angular Material - [online documentation](https://material.angular.io)
-- rxjs - [online documentation](http://reactivex.io/rxjs/)
-- Angular Router - [online documentation](https://angular.io/guide/router)
-- Angular Flex Layout - [online documentation](https://github.com/angular/flex-layout/wiki)
-- Angular CLI - [online documentation](https://cli.angular.io)
+- [Angular](https://angular.io/docs)
+- [Angular Material](https://material.angular.io)
+- [rxjs](http://reactivex.io/rxjs/)
+- [Angular Router](https://angular.io/guide/router)
+- [Angular Flex Layout](https://github.com/angular/flex-layout/wiki)
+- [Angular CLI](https://cli.angular.io)
 
 Browser Support
 ---------------
