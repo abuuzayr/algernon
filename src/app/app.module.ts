@@ -6,19 +6,19 @@ import { NgModule } from '@angular/core';
 // components
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './components/home/home.component';
-import { ShopComponent } from './components/shop/shop.component';
-import { ProductComponent } from './components/product/product.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ShopComponent } from './pages/shop/shop.component';
+import { ProductComponent } from './pages/product/product.component';
 import { ProductsComponent } from './components/products/products.component';
 import { HeadComponent } from './components/head/head.component';
 import { FootComponent } from './components/foot/foot.component';
 import { CategoriesComponent } from './components/categories/categories.component';
-import { CategoryComponent } from './components/category/category.component';
+import { CategoryComponent } from './pages/category/category.component';
 import { FilterByComponent } from './components/filter-by/filter-by.component';
 import { FilterActiveComponent } from './components/filter-active/filter-active.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { LoginComponent } from './login/login.component';
-import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { LoginComponent } from './pages/login/login.component';
+import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
 
 // router
 
