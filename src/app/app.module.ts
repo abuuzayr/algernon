@@ -8,6 +8,7 @@ import { ProductComponent } from './product/product.component';
 import { ProductsComponent } from './products/products.component';
 import { HeadComponent } from './head/head.component';
 import { FootComponent } from './foot/foot.component';
+import { CategoriesComponent } from './categories/categories.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FootComponent } from './foot/foot.component';
     ProductComponent,
     ProductsComponent,
     HeadComponent,
-    FootComponent
+    FootComponent,
+    CategoriesComponent
   ],
   imports: [
     BrowserModule
