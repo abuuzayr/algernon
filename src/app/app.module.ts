@@ -18,6 +18,7 @@ import { FilterByComponent } from './components/filter-by/filter-by.component';
 import { FilterActiveComponent } from './components/filter-active/filter-active.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { LoginComponent } from './login/login.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 
 // router
 
@@ -61,7 +62,8 @@ const appRoutes: Routes = [
     FilterByComponent,
     FilterActiveComponent,
     PageNotFoundComponent,
-    LoginComponent
+    LoginComponent,
+    ForgotPasswordComponent
   ],
   imports: [
     BrowserModule,
