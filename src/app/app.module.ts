@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { ShopComponent } from './shop/shop.component';
 import { ProductComponent } from './product/product.component';
 import { ProductsComponent } from './products/products.component';
+import { HeadComponent } from './head/head.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ProductsComponent } from './products/products.component';
     HomeComponent,
     ShopComponent,
     ProductComponent,
-    ProductsComponent
+    ProductsComponent,
+    HeadComponent
   ],
   imports: [
     BrowserModule
