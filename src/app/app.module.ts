@@ -38,6 +38,10 @@ const appRoutes: Routes = [
     component: CategoryComponent
   },
   {
+    path: 'login',
+    component: LoginComponent
+  },
+  {
     path: '',
     component: HomeComponent,
     pathMatch: 'full'
