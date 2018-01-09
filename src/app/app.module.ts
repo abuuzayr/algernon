@@ -33,7 +33,12 @@ const appRoutes: Routes = [
   {
     path: 'category',
     component: CategoryComponent
-  }
+  },
+  {
+    path: '',
+    component: HomeComponent,
+    pathMatch: 'full'
+  },
 ];
 
 @NgModule({
