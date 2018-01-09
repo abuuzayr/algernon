@@ -3,10 +3,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-// router
-
-import { RouterModule, Routes } from '@angular/router';
-
 // components
 
 import { AppComponent } from './app.component';
@@ -20,6 +16,25 @@ import { CategoriesComponent } from './components/categories/categories.componen
 import { CategoryComponent } from './components/category/category.component';
 import { FilterByComponent } from './components/filter-by/filter-by.component';
 import { FilterActiveComponent } from './components/filter-active/filter-active.component';
+
+// router
+
+import { RouterModule, Routes } from '@angular/router';
+
+const appRoutes: Routes = [
+  {
+    path: 'shop',
+    component: ShopComponent
+  },
+  {
+    path: 'product/:id',
+    component: ProductComponent
+  },
+  {
+    path: 'category',
+    component: CategoryComponent
+  }
+];
 
 @NgModule({
   declarations: [
