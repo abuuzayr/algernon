@@ -20,6 +20,7 @@ import { FilterActiveComponent } from './components/filter-active/filter-active.
 // router
 
 import { RouterModule, Routes } from '@angular/router';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const appRoutes: Routes = [
   {
@@ -53,7 +54,8 @@ const appRoutes: Routes = [
     CategoriesComponent,
     CategoryComponent,
     FilterByComponent,
-    FilterActiveComponent
+    FilterActiveComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
