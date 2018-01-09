@@ -4,6 +4,8 @@
 
 **Algernon** is a front-end e-commerce boilerplate based on Angular, Angular CLI, Angular Router, Angular Material, rxjs, Angular Flex-Layout, and others. Designed to connect to HTTP API endpoints that serve responses in JSON. Mock API reponses are included in this repo which are easily removable and replaced with actual responses. 
 
+[![Screenshot](Screenshot.gif)](https://i.imgur.com/HkcJEIm.gif)
+
 # Installation
 
 Installing Algernon is as you will any other Angular project. 
