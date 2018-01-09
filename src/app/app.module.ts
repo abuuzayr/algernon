@@ -16,11 +16,11 @@ import { CategoriesComponent } from './components/categories/categories.componen
 import { CategoryComponent } from './components/category/category.component';
 import { FilterByComponent } from './components/filter-by/filter-by.component';
 import { FilterActiveComponent } from './components/filter-active/filter-active.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 // router
 
 import { RouterModule, Routes } from '@angular/router';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const appRoutes: Routes = [
   {
@@ -40,6 +40,10 @@ const appRoutes: Routes = [
     component: HomeComponent,
     pathMatch: 'full'
   },
+  {
+    path: '**',
+    component: PageNotFoundComponent
+  }
 ];
 
 @NgModule({
