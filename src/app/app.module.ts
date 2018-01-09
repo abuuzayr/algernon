@@ -51,7 +51,10 @@ const appRoutes: Routes = [
     FilterActiveComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(
+      appRoutes
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]
