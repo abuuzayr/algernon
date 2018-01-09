@@ -19,6 +19,7 @@ import { FilterActiveComponent } from './components/filter-active/filter-active.
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
+import { ShoppingCartService } from './services/shopping-cart.service';
 
 // router
 
@@ -79,7 +80,9 @@ const appRoutes: Routes = [
       appRoutes
     )
   ],
-  providers: [],
+  providers: [
+    ShoppingCartService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
