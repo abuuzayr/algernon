@@ -27,9 +27,10 @@ import { ShoppingCartItemComponent } from './components/shopping-cart-item/shopp
 
 // services
 
-import { ShoppingCartService } from './services/shopping-cart.service';
-import { ProductsService } from './services/products.service';
-import { CategoriesService } from './services/categories.service';
+import { AuthService } from './services/auth/auth.service';
+import { ShoppingCartService } from './services/shopping-cart/shopping-cart.service';
+import { ProductsService } from './services/products/products.service';
+import { CategoriesService } from './services/categories/categories.service';
 
 // router
 
@@ -100,6 +101,7 @@ const appRoutes: Routes = [
     )
   ],
   providers: [
+    AuthService,
     ShoppingCartService,
     CategoriesService,
     ProductsService
