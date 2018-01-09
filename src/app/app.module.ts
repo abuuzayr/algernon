@@ -42,6 +42,10 @@ const appRoutes: Routes = [
     component: LoginComponent
   },
   {
+    path: 'forgot',
+    component: ForgotPasswordComponent
+  },
+  {
     path: '',
     component: HomeComponent,
     pathMatch: 'full'
