@@ -1,0 +1,90 @@
+import {
+  MatTabsModule
+  } from '@angular/material/tabs';
+import {
+  MatAutocompleteModule,
+  MatButtonModule,
+  MatCardModule,
+  MatDialogModule,
+  MatGridListModule,
+  MatIconModule,
+  MatInputModule,
+  MatListModule,
+  MatMenuModule,
+  MatProgressBarModule,
+  MatProgressSpinnerModule,
+  MatSliderModule,
+  MatSnackBarModule,
+  MatTooltipModule,
+  MatToolbarModule,
+  MatSidenavModule,
+  MatPaginatorModule,
+  MatChipsModule,
+  MatFormFieldModule,
+  MatSelectModule,
+  MatTableModule,
+  MatSortModule,
+  MatStepperModule,
+  MatRadioModule
+} from '@angular/material';
+import {NgModule} from '@angular/core';
+
+@NgModule({
+  imports: [
+    MatTabsModule,
+    MatButtonModule,
+    MatMenuModule,
+    MatIconModule,
+    MatCardModule,
+    MatSliderModule,
+    MatProgressBarModule,
+    MatAutocompleteModule,
+    MatInputModule,
+    MatGridListModule,
+    MatSnackBarModule,
+    MatProgressSpinnerModule,
+    MatTooltipModule,
+    MatListModule,
+    MatDialogModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatPaginatorModule,
+    MatChipsModule,
+    MatFormFieldModule,
+    MatSelectModule,
+    MatTableModule,
+    MatSortModule,
+    MatStepperModule,
+    MatRadioModule
+  ],
+  exports: [
+    MatTabsModule,
+    MatButtonModule,
+    MatMenuModule,
+    MatIconModule,
+    MatCardModule,
+    MatSliderModule,
+    MatProgressBarModule,
+    MatAutocompleteModule,
+    MatInputModule,
+    MatGridListModule,
+    MatSnackBarModule,
+    MatProgressSpinnerModule,
+    MatTooltipModule,
+    MatListModule,
+    MatDialogModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatPaginatorModule,
+    MatChipsModule,
+    MatFormFieldModule,
+    MatSelectModule,
+    MatTableModule,
+    MatSortModule,
+    MatStepperModule,
+    MatRadioModule
+  ],
+})
+
+export class MaterialModule {
+}
